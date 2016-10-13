@@ -1,0 +1,5 @@
+{
+  "uid": "data-server",
+  "append": true,
+  "script": "index.js"
+}

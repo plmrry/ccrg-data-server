@@ -1,0 +1,22 @@
+{
+  "name": "ccrg-data-server",
+  "version": "1.0.0",
+  "description": "Reverse proxy server for the EVL CCRG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "forever-start": "forever start forever-config.json",
+    "forever": "forever"
+  },
+  "author": "Paul Murray",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-http-proxy": "^0.6.0",
+    "http-proxy": "^1.13.2"
+  },
+  "devDependencies": {
+    "forever": "^0.15.2"
+  }
+}
